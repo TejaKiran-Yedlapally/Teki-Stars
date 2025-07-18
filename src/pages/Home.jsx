@@ -12,7 +12,7 @@ const Home = () => {
   const [courseName, setCourseName] = useState('');
   const [showCreateCourse, setShowCreateCourse] = useState(false);
   const [courses, setCourses] = useState([]);
-  const APIKEY = import.meta.env.VITE_YT_API_KEY;
+  const APIKEY = "";
 
   const extractId = () => {
     const regex = /[?&]list=([a-zA-Z0-9_-]+)/;
